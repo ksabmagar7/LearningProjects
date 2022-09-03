@@ -1,0 +1,7 @@
+## **Correlating the NDVIs from Landsat 7, 8, 9 and Sentinel 2**
+
+In this mini-project, we try to correlate NDVI from satellite sensors. The year 2016 and 2021 were selected for the suitable date range and data availability.
+
+Mid districts of Nepal were selected for the study purpose. The months september and november were selected, as these months are cloud free months in the country. The median image were selected for each satellites with filtering of the months. For Landsat 7, 8 and Sentinel 2, the year 2016 was chosen, and for the year 2021, Landsat 8, 9 and Sentinel 2 were selected.
+
+We select 10000 random points for each median image. Scatter plots were generated using R.
