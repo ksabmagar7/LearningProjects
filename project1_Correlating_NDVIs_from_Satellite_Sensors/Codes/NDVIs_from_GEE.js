@@ -45,7 +45,7 @@ var L8img = L8
 var L7img = L7
             .filterDate('2016-10-01', '2016-11-30')
             .map(maskCloud)
-            .map(function(img){return img.normalizedDifference(['B5', 'B4']).rename('NDVI')})
+            .map(function(img){return img.normalizedDifference(['B4', 'B3']).rename('NDVI')})
               .median()
                .clip(table);  
 
